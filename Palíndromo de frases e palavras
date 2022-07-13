@@ -1,0 +1,8 @@
+palavra = input('Diga uma palavra')
+palavra_esp = palavra.replace(' ', '')
+palavra_minusc = palavra_esp.lower()
+palavra_f = palavra_minusc[::-1]
+if str(palavra_f) == str(palavra_minusc): 
+    print(palavra, 'é palíndromo')
+else:
+    print(palavra, 'não é palíndromo')
